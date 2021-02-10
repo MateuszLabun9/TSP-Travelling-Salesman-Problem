@@ -1,2 +1,2 @@
 # projekt_komiwojazer
-Whole documentation you can find in TSP_MateuszŁabuń.pdf 
+Whole documentation you can find in TSP_MateuszLabun.pdf 
