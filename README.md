@@ -10,22 +10,29 @@ This is a main screen with two options, Generating random graph or inserting txt
 
 ![image](https://user-images.githubusercontent.com/44081987/153249835-b213e0ca-0291-42f2-9d01-e11f25f1f277.png)
 
-Example text file with vertices below:
 
-![image](https://user-images.githubusercontent.com/44081987/153254554-072e681e-a8eb-4537-be56-114442aabc5b.png)
+If user choose option with random graph in next step program will ask how many vertices should be generated, how many generation is needed and what  the mutation rate will be. 
 
-If user choose option with random graph in next step program will ask how many vertices should be generated: 
 
-![image](https://user-images.githubusercontent.com/44081987/153255111-68167795-5128-4d77-9263-34ff960f5095.png)
+![image](https://user-images.githubusercontent.com/44081987/153258537-5a589f43-c0dd-4936-b597-017798247e8b.png)
 
-In this step user have to insert how many generation of generic algorithm will be used.
+After inserting all this data, program will generate random graph with provided values. Photo below shows list of generated graph and connections between vertices: 
 
-![image](https://user-images.githubusercontent.com/44081987/153255254-5f79cba4-e794-41ac-b6f4-9240328fceb2.png)
+![image](https://user-images.githubusercontent.com/44081987/153258674-2034b1a7-2457-4ec4-b65a-780721134504.png)
 
-Last step is to insert mutation rate also used by genetic algorithm. Value should be grater than 2 and smaller than 100. 
+After this, program shows avaliable paht along all vertices, sorted by its length: 
 
-![image](https://user-images.githubusercontent.com/44081987/153256004-55ea5e85-0432-4585-b9e2-a334dce0455a.png)
+![image](https://user-images.githubusercontent.com/44081987/153258842-d861d0ac-f9f4-4256-b248-6976d2bad509.png)
+
+Last infomration is number of population in genetic algorithm and shortest path is listed with its lenght.
+
+![image](https://user-images.githubusercontent.com/44081987/153258882-f3319c30-db7d-4895-ac3e-15ed3ddeb950.png)
+
 
 Error detection is implemented as well in case of entering wrong amounts, user will be informed and program will be waiting for correct input.
+Photo below shows example of this situation : 
+
+![image](https://user-images.githubusercontent.com/44081987/153259301-3b729822-3462-4708-b00f-edbb722c0dda.png)
+
 
 
